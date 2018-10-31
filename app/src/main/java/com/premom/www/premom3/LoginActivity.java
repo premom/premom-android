@@ -27,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
     public void fl_BtnClick(View v){
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        ref_Intent = new Intent(packageContext this, TestNextIntentActivity.class);
 
 //        startActivity(ref_Intent);
@@ -41,6 +42,9 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "아이디 또는 패스워드가 잘못되었습니다.", Toast.LENGTH_SHORT).show();
         }
+=======
+        ref_Intent = new Intent(this, MainActivity.class);
+>>>>>>> 79b1a6cadb776b85e40aec8babdb2c5ca0709627
 
 >>>>>>> 9740820... login complete
 
