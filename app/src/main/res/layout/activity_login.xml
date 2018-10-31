@@ -41,9 +41,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <EditText
+<<<<<<< HEAD
                 android:id="@+id/idText"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
+=======
+                android:id="@+id/user_id"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+>>>>>>> 9740820... login complete
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:background="@color/colorPrimary"
@@ -55,9 +61,15 @@
                 android:textColorHint="#ffffff" />
 
             <EditText
+<<<<<<< HEAD
                 android:id="@+id/passwordText"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
+=======
+                android:id="@+id/user_pw"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+>>>>>>> 9740820... login complete
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@color/colorPrimary"
