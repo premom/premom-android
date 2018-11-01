@@ -29,7 +29,12 @@ public class MainActivity extends AppCompatActivity {
         //ajeong
 =======
         this.setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         m_refButton=(Button)findViewById(R.id.sl_button);
 >>>>>>> 4f39ce5d1a1e33fc4f22177ca2c82ce28d589ccf
+=======
+//        m_refButton=(Button)findViewById(R.id.sl_button);
+
+>>>>>>> dbbfcbc... mainActivity design
     }
 }
