@@ -176,6 +176,7 @@
             android:orientation="vertical">
 
             <ImageButton
+                android:id="@+id/menu_seat_img"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@null"
@@ -184,7 +185,7 @@
                 android:padding="10dp"
                 android:src="@drawable/menu1"/>
             <Button
-                android:id="@+id/menu_1"
+                android:id="@+id/menu_seat_txt"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -212,6 +213,7 @@
                 android:layout_gravity="center"
                 android:orientation="vertical">
                 <ImageButton
+                    android:id="@+id/menu_diary_img"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:background="@null"
@@ -220,7 +222,7 @@
                     android:padding="10dp"
                     android:src="@drawable/menu3"/>
                 <Button
-                    android:id="@+id/menu_2"
+                    android:id="@+id/menu_diary_txt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
@@ -241,6 +243,7 @@
 
 
                 <ImageButton
+                    android:id="@+id/menu_setting_img"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:background="@null"
@@ -249,7 +252,7 @@
                     android:padding="10dp"
                     android:src="@drawable/menu2"/>
                 <Button
-                    android:id="@+id/menu_3"
+                    android:id="@+id/menu_setting_txt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
