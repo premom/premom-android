@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!--<uses-feature android:name="android.hardware.type.watch" />-->
+    <!-- <uses-feature android:name="android.hardware.type.watch" /> -->
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -30,13 +30,15 @@
 <<<<<<< HEAD
 =======
         <activity android:name=".MainActivity" />
+<<<<<<< HEAD
         <activity android:name=".SeatActivity"></activity>
 <<<<<<< HEAD
+=======
+        <activity android:name=".SeatActivity" />
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 
-        <uses-library
-            android:name="com.google.android.wearable"
-            android:required="true" />
 
+<<<<<<< HEAD
         <meta-data
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
@@ -44,7 +46,9 @@
 =======
         <activity android:name=".SettingActivity"></activity>
 >>>>>>> 300b700... menu complete
+=======
+        <activity android:name=".DiaryActivity"></activity>
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
     </application>
-
 
 </manifest>
