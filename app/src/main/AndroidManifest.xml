@@ -31,6 +31,7 @@
 =======
         <activity android:name=".MainActivity" />
         <activity android:name=".SeatActivity"></activity>
+<<<<<<< HEAD
 
         <uses-library
             android:name="com.google.android.wearable"
@@ -40,6 +41,9 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 >>>>>>> b680e62421d4b0149767c31567173e32821d591e
+=======
+        <activity android:name=".SettingActivity"></activity>
+>>>>>>> 300b700... menu complete
     </application>
 
 
