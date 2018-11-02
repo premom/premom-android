@@ -15,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
 <<<<<<< HEAD
         <activity android:name=".IntentActivitty" />
@@ -72,6 +72,7 @@
         <activity android:name=".SeatActivity" />
         <activity android:name=".SettingActivity" />
         <activity android:name=".DiaryActivity" />
+<<<<<<< HEAD
         <activity android:name=".MypageActivity"></activity>
 >>>>>>> e7ee23d... login & mypage
 =======
@@ -81,6 +82,13 @@
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 >>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
 >>>>>>> 8bef630cd847cfa34cd2e27cbd8d54d0ecd7e747
+=======
+        <activity android:name=".MypageActivity" />
+        <activity android:name=".InformActivity" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".ServiceActivity" />
+        <activity android:name=".ServiceHelpActivity"></activity>
+>>>>>>> b355955... setting더 바꿈
     </application>
 
 </manifest>
