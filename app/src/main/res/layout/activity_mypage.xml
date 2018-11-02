@@ -9,7 +9,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:orientation="vertical">
+=======
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="57dp">
+>>>>>>> c2e4fa82c18191c0c0ca913eb90a9fd8a0312f6f
 
 
         <LinearLayout
@@ -120,7 +127,13 @@
                     android:text="2019.02.03" />
 
             </LinearLayout>
+<<<<<<< HEAD
             <LinearLayout
+=======
+
+            <Button
+                android:id="@+id/pg_menu1"
+>>>>>>> c2e4fa82c18191c0c0ca913eb90a9fd8a0312f6f
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#FEE5E9"
