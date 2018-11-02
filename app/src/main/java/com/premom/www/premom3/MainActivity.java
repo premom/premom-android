@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     ImageButton go_diary_img;
     Button go_setting_txt;
     ImageButton go_setting_img;
+    Button go_mypage_txt;
+    ImageButton go_mypage_img;
+
 
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -76,12 +79,32 @@ public class MainActivity extends AppCompatActivity {
                 goSettingActivity();
             }
         });
+
+        go_mypage_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goMypageActivity();
+            }
+        });
+
+        go_mypage_txt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goMypageActivity();
+            }
+        });
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 199e4bf46869b6465b646e7a17949466c93cd362
+=======
 
 =======
 >>>>>>> 71f5fff28f50caab372d2ed509d1d1b50e478abb
+>>>>>>> aae53a2ef542fba3c1b41b3c53a1587b991dc93d
     public void setViewId() {
         go_seat_txt = (Button) findViewById(R.id.menu_seat_txt);
         go_seat_img = (ImageButton) findViewById(R.id.menu_seat_img);
@@ -89,7 +112,12 @@ public class MainActivity extends AppCompatActivity {
         go_diary_img = (ImageButton) findViewById(R.id.menu_diary_img);
         go_setting_txt = (Button) findViewById(R.id.menu_setting_txt);
         go_setting_img = (ImageButton) findViewById(R.id.menu_setting_img);
+<<<<<<< HEAD
 >>>>>>> 300b700... menu complete
+=======
+        go_mypage_txt = (Button) findViewById(R.id.menu_mypage_txt);
+        go_mypage_img = (ImageButton) findViewById(R.id.menu_mypage_img);
+>>>>>>> e7ee23d... login & mypage
     }
     protected void onCreate(Bundle savedInstanceState) {
 <<<<<<< HEAD
@@ -103,9 +131,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 =======
     public void goSeatActivity(){
+<<<<<<< HEAD
         Intent m1_Intent;
         m1_Intent = new Intent(this, SeatActivity.class);
         startActivity(m1_Intent);
+<<<<<<< HEAD
+=======
 
         finish();
 
@@ -116,8 +147,12 @@ public class MainActivity extends AppCompatActivity {
 <<<<<<< HEAD
         m2_Intent = new Intent(this, SettingActivity.class);
 =======
+<<<<<<< HEAD
+        m2_Intent = new Intent(this, SettingActivity.class);
+=======
         m2_Intent = new Intent(this, DiaryActivity.class);
 >>>>>>> 71f5fff28f50caab372d2ed509d1d1b50e478abb
+>>>>>>> aae53a2ef542fba3c1b41b3c53a1587b991dc93d
         startActivity(m2_Intent);
 
         finish();
@@ -129,9 +164,53 @@ public class MainActivity extends AppCompatActivity {
         m3_Intent = new Intent(this, SettingActivity.class);
         startActivity(m3_Intent);
 >>>>>>> 300b700... menu complete
+>>>>>>> 199e4bf46869b6465b646e7a17949466c93cd362
+=======
+        Intent intent;
+        intent = new Intent(this, SeatActivity.class);
+        startActivity(intent);
+>>>>>>> e7ee23d... login & mypage
 
+//        finish();
+
+    }
+
+    public void goDiaryActivity(){
+        Intent intent;
+        intent = new Intent(this, DiaryActivity.class);
+        startActivity(intent);
+
+//        finish();
+
+    }
+
+    public void goSettingActivity(){
+<<<<<<< HEAD
+        Intent m3_Intent;
+        m3_Intent = new Intent(this, SettingActivity.class);
+        startActivity(m3_Intent);
+>>>>>>> 300b700... menu complete
+=======
+        Intent intent;
+        intent = new Intent(this, SettingActivity.class);
+        startActivity(intent);
+
+//        finish();
+
+    }
+
+    public void goMypageActivity(){
+        Intent intent;
+        intent = new Intent(this, MypageActivity.class);
+        startActivity(intent);
+>>>>>>> e7ee23d... login & mypage
+
+<<<<<<< HEAD
         this.setContentView(R.layout.activity_main);
 //        m_refButton=(Button)findViewById(R.id.sl_button);
+=======
+//        finish();
+>>>>>>> 2089b45... mainactivity - finish x
 
     }
 <<<<<<< HEAD
