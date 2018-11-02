@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         go_mypage_img = (ImageButton) findViewById(R.id.menu_mypage_img);
     }
 
+<<<<<<< HEAD
     public void goSeatActivity(){
 <<<<<<< HEAD
         Intent m1_Intent;
@@ -119,6 +120,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 >>>>>>> e7ee23d... login & mypage
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
+>>>>>>> 8bef630cd847cfa34cd2e27cbd8d54d0ecd7e747
     public void setViewId() {
         go_seat_txt = (Button) findViewById(R.id.menu_seat_txt);
         go_seat_img = (ImageButton) findViewById(R.id.menu_seat_img);
@@ -168,6 +175,7 @@ public class MainActivity extends AppCompatActivity {
 <<<<<<< HEAD
         Intent m2_Intent;
 <<<<<<< HEAD
+<<<<<<< HEAD
         m2_Intent = new Intent(this, DiaryActivity.class);
         startActivity(m2_Intent);
 =======
@@ -179,6 +187,12 @@ public class MainActivity extends AppCompatActivity {
 //        finish();
 =======
         m2_Intent = new Intent(this, SettingActivity.class);
+=======
+        m2_Intent = new Intent(this, SettingActivity.class);
+=======
+        m2_Intent = new Intent(this, DiaryActivity.class);
+>>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
+>>>>>>> 8bef630cd847cfa34cd2e27cbd8d54d0ecd7e747
         startActivity(m2_Intent);
 
         finish();
