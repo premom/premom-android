@@ -50,7 +50,7 @@
                                 android:text="육아일기"
                                 android:textAlignment="center"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="18dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                         <CalendarView
@@ -88,7 +88,7 @@
                                 android:text="육아일기"
                                 android:textAlignment="center"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="18dp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                         <android.support.v7.widget.RecyclerView
@@ -122,7 +122,7 @@
                                 android:text="육아일기"
                                 android:textAlignment="center"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="18dp"
                                 android:textStyle="bold" />
                             <RelativeLayout
                                 android:layout_width="match_parent"
