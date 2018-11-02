@@ -38,11 +38,19 @@
         <activity android:name=".SeatActivity"></activity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <activity android:name=".SeatActivity" />
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 =======
 >>>>>>> 199e4bf46869b6465b646e7a17949466c93cd362
+=======
+=======
+=======
+        <activity android:name=".SeatActivity" />
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+>>>>>>> 71f5fff28f50caab372d2ed509d1d1b50e478abb
+>>>>>>> aae53a2ef542fba3c1b41b3c53a1587b991dc93d
 
 
 <<<<<<< HEAD
@@ -53,6 +61,7 @@
 =======
         <activity android:name=".SettingActivity"></activity>
 >>>>>>> 300b700... menu complete
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         <activity android:name=".DiaryActivity"></activity>
@@ -65,6 +74,13 @@
         <activity android:name=".DiaryActivity" />
         <activity android:name=".MypageActivity"></activity>
 >>>>>>> e7ee23d... login & mypage
+=======
+=======
+=======
+        <activity android:name=".DiaryActivity"></activity>
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+>>>>>>> 71f5fff28f50caab372d2ed509d1d1b50e478abb
+>>>>>>> aae53a2ef542fba3c1b41b3c53a1587b991dc93d
     </application>
 
 </manifest>

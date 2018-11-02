@@ -96,9 +96,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 199e4bf46869b6465b646e7a17949466c93cd362
+=======
+
+=======
+>>>>>>> 71f5fff28f50caab372d2ed509d1d1b50e478abb
+>>>>>>> aae53a2ef542fba3c1b41b3c53a1587b991dc93d
     public void setViewId() {
         go_seat_txt = (Button) findViewById(R.id.menu_seat_txt);
         go_seat_img = (ImageButton) findViewById(R.id.menu_seat_img);
@@ -138,7 +144,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void goDiaryActivity(){
         Intent m2_Intent;
+<<<<<<< HEAD
         m2_Intent = new Intent(this, SettingActivity.class);
+=======
+<<<<<<< HEAD
+        m2_Intent = new Intent(this, SettingActivity.class);
+=======
+        m2_Intent = new Intent(this, DiaryActivity.class);
+>>>>>>> 71f5fff28f50caab372d2ed509d1d1b50e478abb
+>>>>>>> aae53a2ef542fba3c1b41b3c53a1587b991dc93d
         startActivity(m2_Intent);
 
         finish();
