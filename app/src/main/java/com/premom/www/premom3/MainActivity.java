@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         m1_Intent = new Intent(this, SeatActivity.class);
         startActivity(m1_Intent);
 
-        finish();
+//        finish();
 
     }
 
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         m2_Intent = new Intent(this, DiaryActivity.class);
         startActivity(m2_Intent);
 
-        finish();
+//        finish();
 
     }
 
@@ -122,8 +122,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(m3_Intent);
 >>>>>>> 300b700... menu complete
 
+<<<<<<< HEAD
         this.setContentView(R.layout.activity_main);
 //        m_refButton=(Button)findViewById(R.id.sl_button);
+=======
+//        finish();
+>>>>>>> 2089b45... mainactivity - finish x
 
     }
 <<<<<<< HEAD
