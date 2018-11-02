@@ -90,7 +90,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(m1_Intent);
 >>>>>>> 300b700... menu complete
 
+<<<<<<< HEAD
             finish();
+=======
+//        finish();
+>>>>>>> 2089b45... mainactivity - finish x
 
     }
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,10 +122,10 @@ public class MainActivity extends AppCompatActivity {
 =======
     public void goDiaryActivity(){
         Intent m2_Intent;
-        m2_Intent = new Intent(this, SettingActivity.class);
+        m2_Intent = new Intent(this, DiaryActivity.class);
         startActivity(m2_Intent);
 
-        finish();
+//        finish();
 
     }
 
@@ -130,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         m3_Intent = new Intent(this, SettingActivity.class);
         startActivity(m3_Intent);
 
-        finish();
+//        finish();
 
     }
 
