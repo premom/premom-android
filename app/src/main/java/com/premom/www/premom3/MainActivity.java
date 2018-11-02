@@ -75,7 +75,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
     public void setViewId() {
         go_seat_txt = (Button) findViewById(R.id.menu_seat_txt);
         go_seat_img = (ImageButton) findViewById(R.id.menu_seat_img);
@@ -119,7 +122,11 @@ public class MainActivity extends AppCompatActivity {
 =======
     public void goDiaryActivity(){
         Intent m2_Intent;
+<<<<<<< HEAD
         m2_Intent = new Intent(this, SettingActivity.class);
+=======
+        m2_Intent = new Intent(this, DiaryActivity.class);
+>>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
         startActivity(m2_Intent);
 
         finish();
