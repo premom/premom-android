@@ -33,9 +33,12 @@
 <<<<<<< HEAD
         <activity android:name=".SeatActivity"></activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <activity android:name=".SeatActivity" />
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+=======
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
 
 
 <<<<<<< HEAD
@@ -46,9 +49,12 @@
 =======
         <activity android:name=".SettingActivity"></activity>
 >>>>>>> 300b700... menu complete
+<<<<<<< HEAD
 =======
         <activity android:name=".DiaryActivity"></activity>
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+=======
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
     </application>
 
 </manifest>

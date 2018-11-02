@@ -74,6 +74,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+<<<<<<< HEAD
+=======
+
+
+    public void setViewId() {
+        go_seat_txt = (Button) findViewById(R.id.menu_seat_txt);
+        go_seat_img = (ImageButton) findViewById(R.id.menu_seat_img);
+        go_diary_txt = (Button) findViewById(R.id.menu_diary_txt);
+        go_diary_img = (ImageButton) findViewById(R.id.menu_diary_img);
+        go_setting_txt = (Button) findViewById(R.id.menu_setting_txt);
+        go_setting_img = (ImageButton) findViewById(R.id.menu_setting_img);
+    }
+
+    public void goSeatActivity(){
+        Intent m1_Intent;
+        m1_Intent = new Intent(this, SeatActivity.class);
+        startActivity(m1_Intent);
+>>>>>>> 300b700... menu complete
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
 
     public void setViewId() {
         go_seat_txt = (Button) findViewById(R.id.menu_seat_txt);
@@ -122,10 +141,17 @@ public class MainActivity extends AppCompatActivity {
 =======
     public void goDiaryActivity(){
         Intent m2_Intent;
+<<<<<<< HEAD
         m2_Intent = new Intent(this, DiaryActivity.class);
         startActivity(m2_Intent);
 
 //        finish();
+=======
+        m2_Intent = new Intent(this, SettingActivity.class);
+        startActivity(m2_Intent);
+
+        finish();
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
 
     }
 
@@ -134,7 +160,11 @@ public class MainActivity extends AppCompatActivity {
         m3_Intent = new Intent(this, SettingActivity.class);
         startActivity(m3_Intent);
 
+<<<<<<< HEAD
 //        finish();
+=======
+        finish();
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
 
     }
 
