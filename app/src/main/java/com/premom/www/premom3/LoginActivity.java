@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        ref_Intent = new Intent(packageContext this, TestNextIntentActivity.class);
 =======
         ref_Intent = new Intent(this, MainActivity.class);
@@ -48,6 +49,10 @@ public class LoginActivity extends AppCompatActivity {
         }
 
 >>>>>>> 9740820... login complete
+=======
+        ref_Intent = new Intent(this, DiaryActivity.class);
+        startActivity(ref_Intent);
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 
     }
 }
