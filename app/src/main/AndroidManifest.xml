@@ -15,12 +15,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".LoginActivity">
-        </activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MainActivity" />
+<<<<<<< HEAD
         <activity android:name=".IntentActivitty" />
         <activity
             android:name=".SplashActivity">
+=======
+        <activity android:name=".SplashActivity">
+>>>>>>> e7ee23d... login & mypage
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,17 +31,26 @@
             </intent-filter>
         </activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <activity android:name=".MainActivity" />
 <<<<<<< HEAD
         <activity android:name=".SeatActivity"></activity>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <activity android:name=".SeatActivity" />
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+=======
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
+=======
 =======
 =======
         <activity android:name=".SeatActivity" />
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 >>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
+>>>>>>> 8bef630cd847cfa34cd2e27cbd8d54d0ecd7e747
 
 
 <<<<<<< HEAD
@@ -50,11 +62,25 @@
         <activity android:name=".SettingActivity"></activity>
 >>>>>>> 300b700... menu complete
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <activity android:name=".DiaryActivity"></activity>
+>>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+=======
+>>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
+=======
+        <activity android:name=".SeatActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".DiaryActivity" />
+        <activity android:name=".MypageActivity"></activity>
+>>>>>>> e7ee23d... login & mypage
+=======
 =======
 =======
         <activity android:name=".DiaryActivity"></activity>
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 >>>>>>> 3395b03f4793625fd61cc35e91182be8b3ef5343
+>>>>>>> 8bef630cd847cfa34cd2e27cbd8d54d0ecd7e747
     </application>
 
 </manifest>
