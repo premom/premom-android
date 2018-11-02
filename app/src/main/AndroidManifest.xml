@@ -15,12 +15,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".LoginActivity">
-        </activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MainActivity" />
+<<<<<<< HEAD
         <activity android:name=".IntentActivitty" />
         <activity
             android:name=".SplashActivity">
+=======
+        <activity android:name=".SplashActivity">
+>>>>>>> e7ee23d... login & mypage
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,14 +31,18 @@
             </intent-filter>
         </activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <activity android:name=".MainActivity" />
 <<<<<<< HEAD
         <activity android:name=".SeatActivity"></activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <activity android:name=".SeatActivity" />
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+=======
+>>>>>>> 199e4bf46869b6465b646e7a17949466c93cd362
 
 
 <<<<<<< HEAD
@@ -46,9 +53,18 @@
 =======
         <activity android:name=".SettingActivity"></activity>
 >>>>>>> 300b700... menu complete
+<<<<<<< HEAD
 =======
         <activity android:name=".DiaryActivity"></activity>
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
+=======
+>>>>>>> 199e4bf46869b6465b646e7a17949466c93cd362
+=======
+        <activity android:name=".SeatActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".DiaryActivity" />
+        <activity android:name=".MypageActivity"></activity>
+>>>>>>> e7ee23d... login & mypage
     </application>
 
 </manifest>
