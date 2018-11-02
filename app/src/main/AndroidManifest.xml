@@ -15,18 +15,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".LoginActivity">
-        </activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MainActivity" />
+<<<<<<< HEAD
         <activity android:name=".IntentActivitty" />
         <activity
             android:name=".SplashActivity">
+=======
+        <activity android:name=".SplashActivity">
+>>>>>>> e7ee23d... login & mypage
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         <activity android:name=".MainActivity" />
@@ -55,6 +59,12 @@
 >>>>>>> 6ea47abc68dfcd1b870f77bc11386e09bbafd0b5
 =======
 >>>>>>> 4e3715dfddd14bf8c335dc8483e6109ea43d8f95
+=======
+        <activity android:name=".SeatActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".DiaryActivity" />
+        <activity android:name=".MypageActivity"></activity>
+>>>>>>> e7ee23d... login & mypage
     </application>
 
 </manifest>
