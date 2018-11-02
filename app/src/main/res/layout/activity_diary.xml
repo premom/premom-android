@@ -34,6 +34,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:orientation="vertical"
+                        android:background="@drawable/calendarview"
                         android:outlineAmbientShadowColor="@color/editPink">
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -53,10 +54,19 @@
                                 android:textStyle="bold" />
                         </LinearLayout>
                         <CalendarView
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
 
                     </LinearLayout>
+=======
+                            android:id="@+id/calenderView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+
+                    </LinearLayout>
+
+>>>>>>> 70dc53452cde9286e238367c3c527b6728480505
 
                     <LinearLayout
                         android:id="@+id/tab2"
@@ -131,6 +141,7 @@
                                     android:layout_alignParentRight="true"/>
                             </RelativeLayout>
                         </LinearLayout>
+<<<<<<< HEAD
                         <ScrollView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -196,6 +207,36 @@
                                     android:textColor="#BDBDBD" />
                             </LinearLayout>
                         </ScrollView>
+=======
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#BDBDBD"
+                            android:background="#ffffff"
+                            android:padding="20dp"
+                            android:text="뽀짝이 초음파"
+                            />
+                        <TextView
+                            android:id="@+id/TextView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#eeeeee"
+                            android:padding="20dp"
+                            android:text="날짜"
+                            android:textSize="18dp" />
+                        <EditText
+                            android:id="@+id/textView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="20dp"
+                            android:layout_gravity="left|top"
+                            android:gravity="left|top"
+                            android:hint="오늘의 기록"
+                            android:textSize="20dp"
+                            android:textColor="#BDBDBD" />
+
+>>>>>>> 70dc53452cde9286e238367c3c527b6728480505
                     </LinearLayout>
                 </FrameLayout>
 
