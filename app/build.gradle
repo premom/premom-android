@@ -9,6 +9,8 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true    //지하철 노선도 svg
+
     }
     buildTypes {
         release {
@@ -43,7 +45,6 @@ dependencies {
     implementation 'jp.wasabeef:recyclerview-animators:2.3.0'
 
     compile 'com.android.support:cardview-v7:23.+'
-
 
 
 }

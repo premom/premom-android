@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteMapAcitivity">
+
+
+    <!--<android.support.v7.widget.AppCompatImageView-->
+        <!--android:id="@+id/route_map"-->
+        <!--android:layout_width="27dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background=""-->
+        <!--android:srcCompat="@drawble/ic_seoul_subway_linemap_ko" />-->
+
+    <ImageView
+        android:id="@+id/route_map"
+        android:layout_width="413dp"
+        android:layout_height="385dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_seoul_subway_linemap_ko"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+</android.support.constraint.ConstraintLayout>
+
+

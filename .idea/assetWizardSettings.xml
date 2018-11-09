@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_stop_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\EJ" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_seoul_subway_linemap_ko" />
+                            <entry key="sourceFile" value="C:\Users\aaajeong.LAPTOP-6SC2HKA7\Desktop\Seoul_subway_linemap_ko.svg" />
                           </map>
                         </option>
                       </PersistentState>
